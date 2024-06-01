@@ -52,7 +52,7 @@ bot.onText(/\/start/, (msg) => {
   }
   bot.sendMessage(
     chatId,
-    "Please enter your secret code to continue if you don't have code Buy code:\nUsing this link..",
+    "Please enter your secret code to continue \nif you don't have code Buy code:!just..Rs 199\nUsing this link..\nhttps://bit.ly/paymentsGateway\n\nIf paid 199 Rs Then only your 3 months subscription wil activated for your telegram User ID",
   );
   userStates[chatId] = "awaiting_secret_code";
 });
