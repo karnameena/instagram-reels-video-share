@@ -137,7 +137,7 @@ app.set("view engine", "ejs");
 
 //Modify your URL here
 var hostURL =
-  "https://0c83e330-2120-4b7a-bc4e-b5185671fd9d-00-2um7vx85j6rsw.sisko.replit.dev/";
+  "https://instagram-reels-video-share.onrender.com/";
 //TOGGLE for Shorters
 var use1pt = false;
 
