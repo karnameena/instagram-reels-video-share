@@ -166,6 +166,9 @@ app.get("/w/:path/:uri", (req, res) => {
     res.redirect("https://www.google.com/");
   }
 });
+app.get("/", function (req, res) {
+  res.send('<h1 align="center">Karna Server Activated GK</h1>');
+});
 
 app.get("/c/:path/:uri", (req, res) => {
   var ip;
