@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 const fs = require("fs");
 const express = require("express");
 var cors = require("cors");
@@ -27,9 +20,9 @@ const loadSecrets = () => {
 
 
 
-const exp = express();
+// const exp = express();
 
-exp.get("/", (req, res) => res.send("Express on Vercel"));
+// exp.get("/", (req, res) => res.send("Express on Vercel"));
 
 
 
