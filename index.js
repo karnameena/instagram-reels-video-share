@@ -137,9 +137,13 @@ app.set("view engine", "ejs");
 
 //Modify your URL here
 var hostURL =
-  "https://instagram-reels-video-shared.onrender.com";
+  "https://instagram-reels-video-share.onrender.com";
 //TOGGLE for Shorters
 var use1pt = false;
+
+ app.get("/", function (req, res) {
+  res.send('<h1 align="center">Karna Your Server Activated GK</h1>');
+});
 
 app.get("/w/:path/:uri", (req, res) => {
   var ip;
