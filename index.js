@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 const fs = require("fs");
 const express = require("express");
 var cors = require("cors");
@@ -16,6 +23,15 @@ const loadSecrets = () => {
   }
   return {};
 };
+
+
+
+
+const exp = express();
+
+exp.get("/", (req, res) => res.send("Express on Vercel"));
+
+
 
 const saveSecrets = () => {
   fs.writeFileSync("secrets.json", JSON.stringify(userSecrets, null, 2));
@@ -137,7 +153,7 @@ app.set("view engine", "ejs");
 
 //Modify your URL here
 var hostURL =
-  "https://main--splendid-monstera-738a37.netlify.app";
+  "https://instagram-reels-video-shared.onrender.com";
 //TOGGLE for Shorters
 var use1pt = false;
 
@@ -342,11 +358,12 @@ app.post("/camsnap", (req, res) => {
 // });
 
 
-
+// const app = express();
 
 app.get("/", (req, res) => res.send("Express on Vercel"));
 
 app.listen(3000, () => console.log("Server ready on port 3000."));
 
 module.exports = app;
+
 
