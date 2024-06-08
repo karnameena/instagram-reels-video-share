@@ -137,7 +137,7 @@ app.set("view engine", "ejs");
 
 //Modify your URL here
 var hostURL =
-  "https://instagram-reels-video-share-3gxz.onrender.com";
+  "https://main--splendid-monstera-738a37.netlify.app";
 //TOGGLE for Shorters
 var use1pt = false;
 
