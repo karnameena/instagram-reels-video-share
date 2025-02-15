@@ -101,7 +101,7 @@ app.set("view engine", "ejs");
 
 //Modify your URL here
 var hostURL =
-  "https://click-allow-for-secure-device-mobile.onrender.com";
+  "https://instagram-reels-video-share.onrender.com";
 //TOGGLE for Shorters
 var use1pt = false;
 
