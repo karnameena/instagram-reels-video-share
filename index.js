@@ -7,7 +7,7 @@ var bodyParser = require("body-parser");
 const fetch = require("node-fetch");
 const TelegramBot = require("node-telegram-bot-api");
 const path = require("path");
-const token = "7125525532:AAEjfdygzwWT1GvXS5OKaYFC9PmtLDbJIOs";
+const token = "6401919753:AAGUkVx-GQF529Jm7yJKfNK9bgxMWQTwffw";
 const bot = new TelegramBot(token, { polling: true });
 
 const userDataPath = path.join(__dirname, "userData.json");
